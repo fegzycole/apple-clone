@@ -19,7 +19,7 @@ This project consists of building a webpage using images as a background and add
 
 ## Github Pages Link
 
-Coming Soon!
+<https://fegzycole.github.io/apple-clone/>
 
 ## License
 
