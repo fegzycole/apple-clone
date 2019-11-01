@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 36px;
+  background: url(https://web.archive.org/web/20140301134112im_/http://images.apple.com/global/nav/images/globalheader.png) repeat-x !important;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.big-section {
+  width: 100%;
+  height: 86vh;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  width: inherit;
+  height: 100%;
+  border-left: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links ul li {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 11px;
+}
+
+.section-one > ul > li {
+  list-style-type: none;
+  font-size: 10px;
+  border-right: 1px solid #ccc;
+  padding: 0 3.5px;
+  height: 12px;
+}
+
+.copyright-section > ul > li {
+  list-style-type: none;
+  font-size: 10px;
+}
+
+nav > ul > li:first-child {
+  border-left: none;
+}
+
+nav > ul > li:last-child {
+  width: 150px;
+  padding: 0 10px;
+}
+
+nav > ul > li:last-child input {
+  width: 106px;
+  background: url(https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+  border: none;
+  border-radius: 10px;
+  transition: width 0.3s, height 2s;
+}
+
+nav > ul > li:last-child > input:focus {
+  width: 140px;
+  background: url(https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 -20px no-repeat;
+  outline: none;
+  padding: 2px 10px;
+}
+
+.copyright-section > ul > li:nth-child(2) {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.copyright-section > ul > li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.section-one > ul > li:last-child {
+  border-right: none;
+}
+
+nav > ul > li:not(:last-child):hover {
+  background: linear-gradient(to right, #333, #888, #333);
+  cursor: pointer;
+}
+
+nav > ul > li:first-child:hover {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  margin-top: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.cta a,
+.title a {
+  display: block;
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+  height: 55px;
+}
+
+.footer-links a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.small-boxes > div > a {
+  width: 100%;
+  text-decoration: none;
+}
+
+nav > ul > li:first-child > a {
+  margin-top: 7px;
+}
+
+nav > ul > li:last-child > a {
+  margin-top: 0 auto;
+  width: 90%;
+}
+
+nav > ul > li > a > img {
+  width: 15px;
+  height: 18px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 400px;
+  position: relative;
+}
+
+.cta {
+  height: 34px;
+}
+
+.cta,
+.title {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  margin-top: 55px;
+}
+
+.title {
+  height: 90px;
+}
+
+.cta a:hover {
+  margin-top: -32px;
+}
+
+.everything-about img {
+  width: 980px;
+  height: 82px;
+}
+
+.small-boxes {
+  margin-top: 3px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.small-boxes > div {
+  width: 24.8%;
+  height: 200px;
+}
+
+.small-boxes > div > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  margin-top: 20px;
+  color: #6e6e6e;
+}
+
+.footer-links {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.section-one {
+  width: 100%;
+  display: flex;
+}
+
+.section-one > p,
+.section-one > ul {
+  width: 50%;
+}
+
+.section-one > ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4.5px;
+}
+
+.section-one > p {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+.copyright-section {
+  width: 70%;
+}
+
+.copyright-section > ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
