@@ -138,7 +138,7 @@ nav > ul > li:first-child > a {
 }
 
 nav > ul > li:last-child > a {
-  margin-top: 0 auto 0 auto;
+  margin-top: 0 auto;
   width: 90%;
 }
 
